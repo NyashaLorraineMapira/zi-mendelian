@@ -19,7 +19,7 @@ Zi-Mendelian performs the following steps:
 - bgzip and tabix
 
 ## Input
-- VCF files (e.g. `S*.hard-filtered.vcf`)
+- Hard-filtered VCF files (e.g. `S*.hard-filtered.vcf`)
 
 ## Usage
 
@@ -27,3 +27,17 @@ Zi-Mendelian performs the following steps:
 nextflow run main.nf \
   --vcf_dir /path/to/vcfs \
   --outdir results
+Enable VEP annotation:
+
+nextflow run main.nf --run_vep true
+Output
+ANNOVAR multianno annotation files
+
+Zimbabwe-prioritised variant tables (*.zim_prioritised.tsv)
+
+Reproducibility
+Zi-Mendelian is implemented using Nextflow DSL2 to ensure reproducible
+and portable execution across computational environments.
+
+License
+MIT
