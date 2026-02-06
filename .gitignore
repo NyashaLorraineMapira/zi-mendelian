@@ -1,0 +1,6 @@
+results/
+work/
+.nextflow*
+*.vcf
+*.vcf.gz
+*.tbi
