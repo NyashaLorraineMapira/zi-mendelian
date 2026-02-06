@@ -1,21 +1,25 @@
-# Zi-Mendelian (Nextflow)
+# Zi-Mendelian
 
 Zi-Mendelian is a Nextflow DSL2 pipeline for Mendelian variant
-prioritisation in rare disease genomics, integrating ANNOVAR
-annotation and a Zimbabwe/African population frequency layer.
+prioritisation in rare disease genomics. The pipeline integrates
+ANNOVAR-based variant annotation with a population-aware filtering
+layer informed by a Zimbabwean cohort.
 
-## Features
-- Nextflow DSL2
-- Optional VEP annotation
-- ANNOVAR-based multi-annotation
-- Population-aware prioritisation using Zimbabwe cohort data
-- Designed for low-resource compute environments
+## Pipeline overview
+Zi-Mendelian performs the following steps:
+1. Optional VEP annotation of input VCF files
+2. Conversion of VCF files to ANNOVAR input format
+3. Multi-database ANNOVAR annotation
+4. Variant prioritisation using Zimbabwe/African population frequencies
 
 ## Requirements
-- Nextflow (>= 22.10)
+- Nextflow (>= 22.10, DSL2 enabled)
 - Python 3
 - ANNOVAR
-- bgzip, tabix
+- bgzip and tabix
+
+## Input
+- VCF files (e.g. `S*.hard-filtered.vcf`)
 
 ## Usage
 
