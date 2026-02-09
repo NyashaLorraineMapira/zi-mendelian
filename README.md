@@ -41,3 +41,41 @@ and portable execution across computational environments.
 
 License
 MIT
+
+## Parameters
+
+### Input / Output
+| Parameter | Description | Default |
+|---------|-------------|---------|
+| `--vcf_dir` | Directory containing input VCF files | Project directory |
+| `--vcf_pattern` | Pattern used to match VCF files | `S*.hard-filtered.vcf` |
+| `--outdir` | Output directory | `results/` |
+
+### Annotation
+| Parameter | Description | Default |
+|---------|-------------|---------|
+| `--run_vep` | Enable VEP annotation step | `false` |
+| `--vep_exe` | Path to VEP executable | `vep` |
+| `--vep_cache` | Path to VEP cache directory | Not set |
+
+### ANNOVAR
+| Parameter | Description | Default |
+|---------|-------------|---------|
+| `--annovar_dir` | Path to ANNOVAR installation | `~/annovar` |
+| `--humandb` | ANNOVAR human database directory | `annovar/humandb` |
+| `--build` | Genome build | `hg38` |
+| `--annovar_protocol` | ANNOVAR databases used | `refGene,ensGene,gnomad,clinvar` |
+| `--annovar_operation` | Operations for ANNOVAR protocols | `g,g,f,f,f` |
+
+### Population Prioritisation
+| Parameter | Description | Default |
+|---------|-------------|---------|
+| `--run_zim_layer` | Enable Zimbabwe/African prioritisation layer | `true` |
+| `--zim_db` | Zimbabwe cohort frequency file | `refs/zimbabwe_cohort_freq.tsv` |
+
+### Resources
+| Parameter | Description | Default |
+|---------|-------------|---------|
+| `--max_cpus` | Maximum CPUs per process | `4` |
+| `--max_mem` | Maximum memory per process | `7 GB` |
+
