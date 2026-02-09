@@ -1,0 +1,5 @@
+Chr	Start	End	Ref	Alt	Func.refGene	Gene.refGene	GeneDetail.refGene	ExonicFunc.refGene	AAChange.refGene	Func.ensGene	Gene.ensGene	GeneDetail.ensGene	ExonicFunc.ensGene	AAChange.ensGene	AF	AF_popmax	AF_male	AF_female	AF_raw	AF_afr	AF_sas	AF_amr	AF_eas	AF_nfe	AF_fin	AF_asj	AF_oth	non_topmed_AF_popmax	non_neuro_AF_popmax	non_cancer_AF_popmax	controls_AF_popmax	AF.1	AF_raw.1	AF_male.1	AF_female.1	AF_afr.1	AF_ami	AF_amr.1	AF_asj.1	AF_eas.1	AF_fin.1	AF_nfe.1	AF_oth.1	AF_sas.1	clinvar_202409	gnomad_AF_max	gnomad_AFR_AF_max	zim_AF	impact_tier	flag_high_zim_af	flag_common_gnomad	flag_common_gnomad_afr
+																																																		False	False	False
+																																																		True	False	False
+																																																		True	False	False
+																																																		True	False	False
