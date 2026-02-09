@@ -1,0 +1,5 @@
+chr	start	ref	alt	zim_AF
+1	1000	A	G	0.01
+1	2000	C	T	0.05
+1	3000	G	A	0.10
+1	4000	T	C	0.30
