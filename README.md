@@ -79,3 +79,8 @@ MIT
 | `--max_cpus` | Maximum CPUs per process | `4` |
 | `--max_mem` | Maximum memory per process | `7 GB` |
 
+### Low-resource execution
+For machines with limited memory and CPUs:
+
+```bash
+nextflow run main.nf -profile low_resource
