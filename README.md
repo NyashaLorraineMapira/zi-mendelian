@@ -39,6 +39,17 @@ Reproducibility
 Zi-Mendelian is implemented using Nextflow DSL2 to ensure reproducible
 and portable execution across computational environments.
 
+## Testing
+
+Zi-Mendelian includes an end-to-end integration test using synthetic
+data to validate pipeline functionality.
+
+To run the test:
+
+```bash
+bash tests/run_pipeline_test.sh
+
+
 License
 MIT
 
