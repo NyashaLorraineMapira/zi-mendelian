@@ -1,0 +1,8 @@
+##fileformat=VCFv4.2									
+##source=ZiMendelianSynthetic									
+"##contig=<ID=1,length=1000000>"									
+#CHROM	POS	ID	REF	ALT	QUAL	FILTER	INFO	FORMAT	S_TEST
+1	1000	snv1	A	G	100	PASS	FUNC=exonic;EXONICFUNC=nonsynonymous	GT	0/1
+1	2000	snv2	C	T	100	PASS	FUNC=exonic;EXONICFUNC=synonymous	GT	0/1
+1	3000	snv3	G	A	100	PASS	FUNC=intergenic	GT	0/1
+1	4000	snv4	T	C	100	PASS	FUNC=exonic;EXONICFUNC=stopgain	GT	0/1
